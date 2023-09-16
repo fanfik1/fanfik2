@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.menu {
+  background:#161414;;
+  box-shadow: 3px 0 7px rgba(0,0,0,.3);
+  
+}
+.glava h2 {
+  font-size: 30px;
+}
+.glava p {
+  font-size: 20px;
+  font-family:  'Roboto', sans-serif;
+  font: bold;
+  text-indent: 20px;
+}
+.glava {
+max-width: 750px;
+margin: auto;
+}
+.info {
+  background-color: #ffffff;
+  color: #161414;
+}
+.menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu-list li {display: inline-block;}
+.menu-list a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 61px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  transition:.3s linear;
+}
+.menu-list a:hover {
+  background-color: rgba(78, 184, 226, 0.334);
+  transition: background-color 1s, transform 0.5s;
+}
+.menu-list a:hover:before {opacity: 1;}
+
+html  {
+  scroll-behavior: smooth;
+}
+.menu-list1 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu-list1 li {display: inline-block;}
+.menu-list1 a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 61px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: rgb(50, 50, 46);
+  transition:.3s linear;
+  
+}
+.menu-list1 a:hover {
+  background-color: rgba(245, 175, 70, 0.207);
+  transition: background-color 1s, transform 0.5s;
+}
+
+.nav {
+  text-align: center;
+}
+
+.menu-list2 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu-list2 li {display: inline-block;}
+.menu-list2 a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 61px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: rgb(50, 50, 46);
+  transition:.3s linear;
+  
+}
+.menu-list2 a:hover {
+  background-color: rgba(213, 70, 245, 0.167);
+  transition: background-color 1s, transform 0.5s;
+}
+
+.menu-list3 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu-list3 li {display: inline-block;}
+.menu-list3 a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 61px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: rgb(50, 50, 46);
+  transition:.3s linear;
+  
+}
+.menu-list3 a:hover {
+  background-color: rgba(234, 24, 119, 0.167);
+  transition: background-color 1s, transform 0.5s;
+}
+ 
+ 
+
+
+#myBtn {
+  display: none; /* Скрыто по умолчанию */
+  position: fixed; /* Фиксированное / липкое положение */
+  bottom: 20px; /* Поместите кнопку в нижней части страницы */
+  right: 30px; /* Разместить кнопку 30 пикселей от правого */
+  z-index: 99; /* Убедитесь, что он не перекрывается */
+  border: none; /* Удалить границы */
+  outline: none; /* Удалить контур */
+  background-color: rgba(221, 209, 209, 0.664); /* Установка цвета фона */
+  color: #161414; /* Цвет текста */
+  cursor: pointer; /* Добавить указатель мыши при наведении */
+  padding: 15px; /* Немного отступов */
+  border-radius: 10px; /* Округленные углы */
+  font-size: 18px; /* Увеличить размер шрифта */
+}
+
+#myBtn:hover {
+  background-color: rgba(78, 184, 226); /* Добавить темно-серый фон при наведении курсора */
+}
+
+.photo h1 {
+  color: #ffffff;
+}
+
+.f1 {
+  width: 35%;
+  margin-left: 30%;
+}
+
+.photo h1 {
+  color: #161414;
+  text-align: center;
+}
+
+.per {
+  text-align: center;
+  font-size: 35px;
+}
+.h343 {
+  font-size: 20px;
+  font-family:  'Roboto', sans-serif;
+  font: bold;
+  text-indent: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.namep {
+  font-size: 35px;
+}
+
+.ser {
+  color: #5d5b5b;
+  font-style: italic;
+}
